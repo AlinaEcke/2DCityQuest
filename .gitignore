@@ -79,3 +79,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+fof_scenario.zip
+BalanceBoardPlugin.dll
+BalanceBoardPlugin.dll.meta
+fof_scenario/Builds.zip
+Builds
+Library
+Logs
