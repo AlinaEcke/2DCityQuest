@@ -781,9 +781,9 @@ public class GameplayManager : MonoBehaviour
                 case ("strafespeedfactor"):
                     characterStrafeFactor = float.Parse(child.Attributes["value"].Value);
                     break;
-                /*case ("speedfactor"):
+                case ("speedfactor"):
                     characterSpeedFactor = float.Parse(child.Attributes["value"].Value);
-                    break;*/
+                    break;
                 case ("alpha"):
                     characterAlpha = float.Parse(child.Attributes["value"].Value);
                     break;
