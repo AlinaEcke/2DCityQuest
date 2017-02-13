@@ -113,6 +113,7 @@ public class GameplayManager : MonoBehaviour
     public List<GameObject> bonusSourceList;
     public Transform bonusParent;
 
+
     public Dictionary<string, string> debugProperties = new Dictionary<string, string>();
     #endregion
 

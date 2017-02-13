@@ -2296,6 +2296,7 @@ public class CQ_Interface : FiniteStateMachine
         stage.addChild(mcLeftTurnArrow);
         stage.addChild(mcRightTurnArrow);
         stage.addChild(mcGoStraightArrow); 
+
     }
     void InitIngamePopups()
     {
@@ -2535,6 +2536,8 @@ public class CQ_Interface : FiniteStateMachine
             playerCheck.x = check.position.x;
             playerCheck.y = check.position.y;
             playerCheck.rotation = check.angleRotation;
+
+			mcMap.visible = Input.GetAxis ("showmapbutton") > 0.1f;
         }
     }
 
