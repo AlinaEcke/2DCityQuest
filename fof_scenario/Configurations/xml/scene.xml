@@ -1,7 +1,7 @@
 <session>
   <city_grid>
-    <horizontal value="2" />
-    <vertical value="3" />
+    <horizontal value="1" />
+    <vertical value="1" />
     <roads>
       <road type="B" perc="50" />
       <road type="C" perc="50" />
